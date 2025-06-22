@@ -19,12 +19,12 @@ Features
 
 Project Structure
 
-bookbot/
-├── main.py          # Main application entry point
-├── stats.py         # Statistical analysis functions
-├── books/           # Directory containing text files to analyze
-│   └── frankenstein.txt
-└── README.md        # This file
+    bookbot/
+    ├── main.py          # Main application entry point
+    ├── stats.py         # Statistical analysis functions
+    ├── books/           # Directory containing text files to analyze
+    │   └── frankenstein.txt
+    └── README.md        # This file
 
 Sample Output
 
