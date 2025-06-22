@@ -22,14 +22,14 @@ Project Structure
     bookbot/
     ├── main.py          # Main application entry point
     ├── stats.py         # Statistical analysis functions
-    ├── books/           # Directory containing text files to analyze
+    ├── books/           # Directory containing text files to analyse
     │   └── frankenstein.txt
     └── README.md        # This file
 
 Sample Output
 
     ============ BOOKBOT ============
-    Analyzing book found at books/frankenstein.txt...
+    Analysing book found at books/frankenstein.txt...
     ----------- Word Count ----------
     Found 75767 total words
     --------- Character Count -------
@@ -65,7 +65,7 @@ How It Works
 
     Text Processing: Reads the specified text file and processes its contents
     Word Analysis: Counts total words using string manipulation techniques
-    Character Frequency: Analyzes each character and tracks occurrence counts
+    Character Frequency: Analyses each character and tracks occurrence counts
     Data Sorting: Converts character data to a sortable format and orders by frequency
     Report Generation: Formats and displays the results in a clean, readable format
 
@@ -75,19 +75,20 @@ Technical Implementation
     Implements custom sorting functions for dictionary-based data structures
     Filters non-alphabetical characters using .isalpha() method
     Modular design with separate statistics and main modules
-
+    Command-line arguments for specifying different files
+        
 Usage
 
     Run the application from the command line:
 
-    python3 main.py
+    python3 main.py <path_to_book>
 
-    The program will automatically analyze the default book file and display the statistical report.
+    The program will automatically analyse the referenced book file and display the statistical report.
     
 Requirements
 
     Python 3.x
-    Text file(s) to analyze (placed in the books/ directory)
+    Text file(s) to analyse (placed in the books/ directory)
 
 Learning Objectives
 
@@ -97,17 +98,17 @@ This project demonstrates:
     String manipulation and text processing
     Dictionary data structures and operations
     List sorting with custom key functions
-    Modular programming and function organization
+    Modular programming and function organisation
     Data analysis and reporting techniques
+    Command-line arguments for specifying different files
 
 Future Enhancements
 
 Potential improvements could include:
 
-    Command-line arguments for specifying different files
     Support for multiple file formats
     Additional statistical metrics (sentence count, paragraph analysis)
     Export functionality (CSV, JSON output)
-    Graphical visualization of character frequency
+    Graphical visualisation of character frequency
 
 BookBot is my first [Boot.dev](https://www.boot.dev) project! This project was built as part of the Boot.dev Python course, focusing on practical application of core programming concepts.
